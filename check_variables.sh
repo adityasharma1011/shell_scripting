@@ -3,7 +3,7 @@
 # -------------------------------- #
 # Author: Kumar Aditya             #
 # Decription: learning variables   #
-# Created on: 22st March, 2022     #
+# Created on: 22nd March, 2022     #
 # -------------------------------- #
 
 
