@@ -1,4 +1,3 @@
-1. print_details.sh
 #!/bin/bash
 
 # This is my first shell script
