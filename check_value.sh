@@ -1,12 +1,33 @@
 #!/bin/bash
 
-# Description: checking OR conditions
-# Author: n0123456
+#Author: n0123456
+#Description: calling multiple Functions 
 
-read -p "Enter the number: " NUMBER
 
-if [[ $NUMBER -lt 15 || $NUMBER -gt 45   ]]; then
-        echo "Valid number"
-else
-        echo "Invalid number"
-fi
+greetings()
+{
+echo "========================"
+date
+echo "========================"
+
+}
+
+function1()
+{
+echo "I am inside function 1"
+}
+
+
+function2()
+{
+echo "I am inside function 2"
+
+}
+
+
+# Starting of the script
+echo " Execution starts here "
+function2
+greetings
+function1
+
